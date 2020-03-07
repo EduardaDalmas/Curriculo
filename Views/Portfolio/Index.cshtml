@@ -1,0 +1,15 @@
+@model Init.Models.Portfolio
+
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+        <ul>
+            <h2>Perfis com Portfolio disponível: </h2>
+            <li> Perfil no GitHub: @Model.Git</li>
+            <li> Perfil no Bitbucket: @Model.Bit</li>
+        </ul>
+</div>

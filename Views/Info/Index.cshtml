@@ -1,0 +1,17 @@
+@model Init.Models.Info
+
+@{
+    ViewData["Title"] = "Info";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <h2> Educação </h2>
+    <li>Ensino: @Model.Estudo1</li>
+    <li>Ensino: @Model.Estudo2</li>
+    <li>Ensino: @Model.Estudo3</li>
+    <li>Ensino: @Model.Estudo4</li>
+    <li>Ensino: @Model.Estudo5</li>
+    <li>Estágio: @Model.Estágio</li>
+</div>
